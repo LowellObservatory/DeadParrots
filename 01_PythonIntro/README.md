@@ -3,6 +3,14 @@ Python: For Fun and Professional Profit
 
 *Given by Ryan T. Hamilton at Lowell Observatory on 2018 07 26.*
 
+In the presentation, I stopped at slide 28 and brought up the 
+three included code examples; this was the order in which we talked 
+about them, from simple to more complex:
+
+1) [FITSfilefactory.py](FITSfilefactory.py)
+2) [devices.py](devices.py)
+3) [Lissajooser.py](Lissajooser.py)
+
 Note that the PDF version of the presentation I gave won't have the
 animated GIFs in it, but the PPTX one does.
 
