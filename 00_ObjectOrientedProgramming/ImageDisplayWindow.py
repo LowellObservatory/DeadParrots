@@ -49,7 +49,7 @@ class StaticImageDisplayWindow(ImageDisplayWindow):
         
         rootDirectory = os.path.dirname(__file__)
         img=mpimg.imread(os.path.join(rootDirectory,
-                        '../images/fitsbrowser.png'))
+                        './images/fitsbrowser.jpg'))
         
         self.gca.clear()
         self.gca.imshow(img)
