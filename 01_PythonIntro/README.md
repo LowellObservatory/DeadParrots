@@ -18,6 +18,11 @@ animated GIFs in it, but the PPTX one does.
 [Download Anaconda](https://www.anaconda.com/download/)
 
 ## Integrated Development Environments
+The ones I specifically mentioned today are 
+
+* [vscode](https://code.visualstudio.com/)
+* [Spyder](https://www.spyder-ide.org/)
+
 Note that both of these are installable via Anaconda.
 
 [Setting up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
