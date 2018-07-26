@@ -5,9 +5,9 @@ Object Oriented Programming with Examples in Python
 
 ## Examples Included
 
-* [FITSBrowse.py](FITSBrowse is the main GUI code)
-* [ImageDisplayWindow.py](ImageDisplayWindow is for the bottom half of the GUI)
-* [FileList.py](FileList is for the top half of the GUI)
+* [FITSBrowse is the main GUI code](FITSBrowse.py)
+* [ImageDisplayWindow is for the bottom half of the GUI](ImageDisplayWindow.py)
+* [FileList is for the top half of the GUI](FileList.py)
 
 To run the example, once you have a working Anaconda or Python environment:
 
