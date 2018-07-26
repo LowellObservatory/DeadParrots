@@ -4,6 +4,7 @@ Created on Jul 9, 2018
 @author: dlytle
 '''
 
+import random
 from PyQt5 import QtWidgets
 from matplotlib.backends.backend_qt5agg import\
     FigureCanvasQTAgg as FigureCanvas
@@ -47,9 +48,16 @@ class StaticImageDisplayWindow(ImageDisplayWindow):
     def compute_initial_figure(self):
         """ Load the default image into the ImageDisplayWindow."""
         
+        imageHeads = './images/fitsbrowser.png'
+        imageTails = './images/fitsbrowser.jpg'
+        # Toss a random coin to see which image we display by default
+        flip = random.randint(0, 1)
+        if flip == 0:
+            imgfname = imageHeads
+        else:
+            imgfname = imageTails
         rootDirectory = os.path.dirname(__file__)
-        img=mpimg.imread(os.path.join(rootDirectory,
-                        './images/fitsbrowser.jpg'))
+        img=mpimg.imread(os.path.join(rootDirectory, imgfname))
         
         self.gca.clear()
         self.gca.imshow(img)
