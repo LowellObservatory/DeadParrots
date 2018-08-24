@@ -38,5 +38,3 @@ datatypes and all that kind of stuff:
 [Introduction to Astropy](https://github.com/astropy/astropy-workshops/tree/master/aas231_workshop)
 
 [Introduction to Python for Scientists](https://github.com/mommermi/Introduction-to-Python-for-Scientists)
-
-
