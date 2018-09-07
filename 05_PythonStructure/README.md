@@ -1,5 +1,5 @@
-Plotting with Python
-====================
+Python Program Structure
+========================
 
 *Given by Dyer Lytle at Lowell Observatory on 2018 08 31.*
 
