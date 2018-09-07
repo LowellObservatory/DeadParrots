@@ -6,6 +6,18 @@ Git and GitHub
 Note that the PDF version of the presentation I gave won't have the
 animated GIFs in it, but the PPTX one does.
 
+## Get Git Tools
+
+For Windows and Macs
+[SourceTree](https://www.sourcetreeapp.com)
+
+For Linux
+[Git Kraken](https://www.gitkraken.com/)
+
+Remember to look for and get git plugins for your IDE of choice!
+[VScode git is already built-in](https://code.visualstudio.com/docs/editor/versioncontrol)
+[git for emacs](https://www.emacswiki.org/emacs/Git)
+
 ## Get Python
 [Download Anaconda](https://www.anaconda.com/download/)
 
