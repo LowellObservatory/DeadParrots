@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Apple garbage
+*.DS_Store
+*.DS_store
+*.ds_store
