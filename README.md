@@ -6,5 +6,5 @@ send in a pull request yourself.  If you're doing the latter, take a look at
 the [AA\_Template](AA_Template) directory and work from there!
 
 More information can be found on the
-[Dead\Parrot\_Seminars](http://wiki.lowell.edu/index.php/Dead_Parrot_Seminars)
+[Dead\_Parrot\_Seminars](http://wiki.lowell.edu/index.php/Dead_Parrot_Seminars)
 page on the Lowell internal wiki.
