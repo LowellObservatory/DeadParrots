@@ -12,7 +12,7 @@ NOTE: I've found it handy to keep the last two sections ("Get Python" and
 "Additional Links..." in each one as a reference for newcomers.
 
 ## Example Files
-* [Title](Filename.whatever)
+* [README File](README.md)
 
 ## Jupyter Notebooks
 * [Title](Filename.ipynb)
