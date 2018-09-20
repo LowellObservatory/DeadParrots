@@ -15,7 +15,7 @@ NOTE: I've found it handy to keep the last two sections ("Get Python" and
 * [README File](README.md)
 
 ## Jupyter Notebooks
-* [Title](Filename.ipynb)
+* [Introduction to matplotlib and matplotlib.pyplot](../04_PlottingWithPython/01_Intro.ipynb)
 
 ## Get Python
 [Download Anaconda](https://www.anaconda.com/download/)
