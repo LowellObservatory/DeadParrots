@@ -1,0 +1,59 @@
+README - this file - last update 2019Mar16 by Stephen Levine @ Lowell
+
+20190315_serial.pdf - PDF copy of the presentation slides given on
+		      2019 March 15.
+
+Python Code
+-----------
+ard_serial.py - Simple serial communications interface to the Arduino,
+	      	designed to fulfill much the same roll as the Serial
+	      	Monitor Tool provided by the Arduino IDE. This include
+	      	higher level commands that are roof control specific
+	      	in addition to the generic methods to handle the
+	      	connection and communications. Written assuming
+	      	Python3, but might work under Python2.
+
+ard_tks.py - A Python3/Tk based GUI that wraps the ard_serial.py
+	        functionality. Written assuming Python3, but also
+	        might work under Python2.
+
+sel_tks.py - Lower level GUI, logging and string manipulation
+	        functions used by ard_serial and ard_tks.
+
+Arduino Code
+------------
+roof_control.ino - Software for the Arduino. Compile and load it using
+                   the standard Arduino development environment
+                   which can be found at
+                   https://www.arduino.cc/en/Main/Software
+
+Once the roof_control code has been uploaded to your Arduino, and all
+three python files are in your current directory, you should be able
+to run the GUI to talk with the Arduino. This has been tested under
+Linux and MacOSX. The parts under the sel_tks.py have also been tested
+under Windows.
+
+This can be run directly from the command line:
+  csh> python3 ./ars_tks.py
+or
+  csh> ./ars_tks.py
+
+or from within python
+  >>> import ars_tks as art
+will load and start up the GUI.
+
+
+I have tried to keep the external package dependencies limited.  Here
+is a list of the packages (or parts of packages) that this software
+imports at one time or another:
+
+from time       import gmtime, strftime, sleep
+from contextlib import redirect_stdout
+import glob
+import io
+import os
+import serial
+import serial.tools.list_ports as stl
+import sys
+import threading
+import tkinter as tk
