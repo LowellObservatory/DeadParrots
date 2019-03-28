@@ -1,6 +1,6 @@
 ### Method
 
-1. Create a master bias (zero) file by median combining all the darks (zeros).
+1. Create a master bias (zero) file by median combining all the bias frames (zeros).
 2. Subtract this master bias from all of the flats.
 3. Median combine the flats to create a master flat. (see methods.md for median combine)
 4. Divide the master flat by its mean to get a normalized master flat.
